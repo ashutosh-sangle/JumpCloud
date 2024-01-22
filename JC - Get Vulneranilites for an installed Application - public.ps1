@@ -1,5 +1,8 @@
+#To Install the PoshCVE#
+#Install-Module -Name PoshCVE -Scope CurrentUser#
+
 Import-Module JumpCloud
-Import-Module Posh-CVE
+Import-Module PoshCVE
 
 # Define your API key for the NVD Databse
 $apiKey = 'YOUR_NVD_API_KEY'  # Replace with your actual API key
